@@ -1,0 +1,173 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c0f0f5; 
+    margin: 0;
+    padding: 15px;
+    color: #000000;
+}
+
+.container 
+{
+    max-width: 780px;
+    margin: 0 auto;
+    background-color: #c0f0f5;
+}
+
+.logo-box 
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo-box img 
+{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #5c2d13; 
+}
+
+h2 
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+hr 
+{
+    border: 0;
+    border-top: 1px solid black;
+    margin-bottom: 15px;
+}
+
+p 
+{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+input[type="text"], 
+select, 
+textarea 
+{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    border: 1px solid #7eb6ba;
+    background-color: #ffffff;
+    padding: 2px 3px;
+    box-sizing: border-box;
+}
+
+#firstName 
+{
+    width: 130px;
+    margin-right: 15px;
+}
+
+#lastName 
+{
+    width: 170px;
+}
+
+#ssn 
+{
+    width: 80px;
+}
+
+#department 
+{
+    width: 100px;
+}
+
+#purpose 
+{
+    width: 480px !important; 
+    max-width: 100%;
+    height: 85px;
+    margin-top: 5px;
+    resize: vertical;
+}
+
+.expense-table 
+{
+    border-collapse: separate; 
+    border-spacing: 2px;       
+    background-color: #c0f0f5;
+    border: 1px solid #73b3c6;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.expense-table th,
+.expense-table td 
+{
+    border: 2px groove #a6dce2; 
+    background-color: #c0f0f5;
+    padding: 3px 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.expense-table th 
+{
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+}
+
+.expense-table th:nth-child(1) { width: 90px; }   
+.expense-table th:nth-child(2) { width: 300px; }  
+.expense-table th:nth-child(3) { width: 110px; }  
+.expense-table th:nth-child(4) { width: 70px; }   
+
+.expense-table td input[type="text"],
+.expense-table td select 
+{
+    width: 100%;
+    border: 1px solid #7eb6ba;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding: 1px 2px;
+}
+
+.expense-table td:nth-child(1) input 
+{
+    text-align: center; 
+}
+
+.expense-table td:nth-child(4) input 
+{
+    text-align: right;  
+}
+
+button 
+{
+    background-color: #e0e0e0;
+    color: #000000;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    padding: 2px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    box-shadow: 1px 1px 1px #888888; 
+}
+
+button:active 
+{
+    background-color: #cccccc;
+    box-shadow: none;
+}
+
+p.contact 
+{
+    font-size: 13px;
+    color: #000000;
+    margin-top: 15px;
+}
